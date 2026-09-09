@@ -1,0 +1,107 @@
+html, body {
+ box-sizing: border-box;
+ background: black;
+ color: white;
+ margin: 0;
+ padding: 0;
+}
+
+#computer {
+ display: flex;
+ justify-content: space-between; 
+ width: 100%;
+ position: absolute;
+ top: 10px;   
+}
+
+#user {
+ display: flex;
+ justify-content: space-between; 
+ width: 100%;
+ position: absolute;
+ bottom: 10px;   
+}
+
+.btn { 
+ border: none;
+ background: none;
+ font-size: 2.9em
+}
+
+#players {
+ position: fixed;
+ height: 70%;
+ top: 15%;
+ width: 100%;
+ box-sizing: border-box;
+ border: 2px solid gold;
+}
+
+small {
+ position: absolute;
+ text-align: center;
+ width: 100%;
+ font-weight: bold;
+}
+
+
+#c-text {
+ top: 65px;
+}
+
+#u-text {
+ bottom: 65px;
+}
+
+#game-header {
+ display: flex;
+ justify-content: space-between;
+ font-weight: bold;
+ width: 100%;
+ position: fixed;
+ background: orange;
+ color: blue;
+ padding: 10px;
+ box-sizing: border-box;
+}
+
+#menu {
+ font-size: 1.9em;
+ position: relative;
+ top: -13px;
+}
+
+#start-game {
+ display: block;
+ margin: 0 auto;
+ position: relative;
+ top: 49%;
+ background: blue;
+ color: white;
+ border: none;
+ font-weight: bold;
+ padding: 6px;
+ border-radius: 5px;
+}
+
+#game-menu {
+ position: absolute;
+ right: 15px;
+ top: 40px;
+ background: gray;
+ padding: 10px;
+ border-radius: 5px;
+ display: none;
+ gap: 8px;
+}
+
+#game-menu > button {
+ background: none;
+ border: none;
+ color: white;
+ font-weight: bold;
+}
+
+#game-menu > button:focus {
+ color: purple;
+}
