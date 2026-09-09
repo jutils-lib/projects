@@ -1,7 +1,3 @@
-import cached from '../Cache jUtils Lib/cache.js';
-
-await cached();
-
 
 // ---------------------------------------------------------
 // GAME MENU
