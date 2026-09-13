@@ -1,1 +1,1 @@
-location.href = 'test.html';
+location.href = 'fit.html?name=Sammy';
