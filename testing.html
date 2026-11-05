@@ -1,0 +1,15 @@
+<html>
+<body>
+<button onclick="fit()">Click me</button>
+<script>
+function fit() {
+const title = document.title;
+
+document.title = 'Transaction_History';
+window.print();
+
+document.title = title;
+}
+</script>
+</body>
+</html>
